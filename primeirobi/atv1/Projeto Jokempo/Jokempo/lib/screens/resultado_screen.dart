@@ -28,11 +28,11 @@ class ResultadoScreen extends StatelessWidget {
   String _imagemResultado(String resultado) {
     switch (resultado) {
       case 'vitoria':
-        return 'assets/icons8-vitoria-48.png';
+        return 'assets/vitoria.png';
       case 'derrota':
         return 'assets/perder.png';
       default:
-        return 'assets/icons8-aperto-de-maos-100.png';
+        return 'assets/apertodemao.png';
     }
   }
 

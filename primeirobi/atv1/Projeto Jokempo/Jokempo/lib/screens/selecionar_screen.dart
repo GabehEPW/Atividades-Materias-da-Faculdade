@@ -82,7 +82,7 @@ class SelecionarScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/padrao.png',
+              'assets/padrao.png', // ✅ correto
               width: 140,
               height: 140,
             ),
@@ -95,6 +95,7 @@ class SelecionarScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
+
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
